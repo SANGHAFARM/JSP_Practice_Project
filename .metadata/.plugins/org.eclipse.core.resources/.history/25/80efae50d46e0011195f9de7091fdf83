@@ -1,0 +1,7 @@
+package servlet_db;
+
+import javax.servlet.http.HttpServlet;
+
+public class Round18_01_Servlet extends HttpServlet {
+
+}

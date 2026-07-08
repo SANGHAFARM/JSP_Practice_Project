@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="javascript">
+	function check_form() {
+		var name = data_form.name.value;
+		var age = data_form.age.value;
+		var school = data_form.school.value;
+		var filename = data_form.school.value;
+
+		if (!blank_check('이름', name))
+			return false;
+		if (!blank_check('나이', age))
+			return false;
+		if (!blank_check('학교', school))
+			return false;
+		if (!blank_check('파일명', filename))
+			return false;
+
+		return true;
+	}
+
+	function blank_check(name, value) {
+		if (value == '') {
+			alert(name + " 영역이 비었습니다.");
+			return false;
+		}
+		return true;
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

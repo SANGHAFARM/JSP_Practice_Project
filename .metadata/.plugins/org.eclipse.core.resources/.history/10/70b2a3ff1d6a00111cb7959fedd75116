@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>데이터와 파일 전송!</h2>
+	<form method="post" action=Round16_03_Servlet enctype="multipart/form-data">
+		보낸이 : <input type="text" name="sender"/><br>
+		파일명 : <input type="file" name="attach"/><br>
+	</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+package servlet_test;
+
+import javax.servlet.http.HttpServlet;
+
+public class Round16_03_Servlet extends HttpServlet {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	    request.setCharacterEncoding("euc-kr");
+	    ServletInputStream p_in = request.getInputStream( );
+
+	    response.setContentType("text/html;charset=euc-kr");
+	    ServletOutputStream p_out = response.getOutputStream( );
+
+	    p_out.write("전송된 데이터 출력 시작!!!<br/>".getBytes( ));
+	    while(true) {
+	        int x = p_in.read( );
+	        if(x == -1) break;
+	        p_out.write((char)x);
+	    }
+	    p_out.write("<br/>전송된 데이터 출력 끝!!!".getBytes( ));
+
+	    p_in.close( );
+	    p_out.close( );
+	}
+}

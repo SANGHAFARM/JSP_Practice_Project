@@ -1,0 +1,7 @@
+package servlet_test;
+
+import javax.servlet.http.HttpServlet;
+
+public class Round16_01_Servlet extends HttpServlet {
+
+}

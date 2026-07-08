@@ -1,0 +1,21 @@
+package servlet_test;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ServletTest05 {
+	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	    String method = request.getMethod( );
+	    if(method.equalsIgnoreCase("GET")) {
+	        response.sendRedirect("ServletHtml_05.html");
+	        return;
+	    }
+	    else if(method.equalsIgnoreCase("POST")){
+	        response.sendRedirect("Round14_05_Post_Servlet.htm");
+	        return;
+	    }
+	}
+}

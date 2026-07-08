@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="http://www.naver.com">네이버</a>
+	<br />
+	<a href="#">임시 태그 기능 지정</a>
+	<br>
+	<br>
+	<form>
+		<label for="name">이름</label> <input id="name"><br> <label
+			for="age">나이</label> <input id="age" type="number" min="0"><br>
+		<label for="email">이메일</label> <input id="email" type="email"><br>
+		<label for="birth">생년월일</label> <input id="birth" type="date"><br>
+		<label for="country">국가</label> <select id="country">
+			<option>대한민국</option>
+			<option>중국</option>
+			<option>일본</option>
+			<option>미국</option>
+			<option>영국</option>
+		</select> <br> <br>
+		<button type="reset">초기화</button>
+		<button type="submit">제출</button>
+	</form>
+	<br>
+	<form method="get" action="">
+		<table border=1 width=300 height=200>
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>PASSWORD</td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			<tr>
+				<td>전송</td>
+				<td><input type="submit" value="로그인"></td>
+			</tr>
+		</table>
+	</form>
+	<form method="post" action="">
+		<table border=1 width=300 height=200>
+			<h2>회원가입</h2>
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input type="name" name="name"></td>
+			</tr>
+			<tr>
+				<td>성별</td>
+				<td><input type="radio" name="option" value="1">남 <input
+					type="radio" name="option" value="2">여</td>
+			</tr>
+			<tr>
+				<td>메일주소</td>
+				<td><input type="text" name="mail"></td>
+			</tr>
+			<tr>
+				<td>전송</td>
+				<td><input type="submit" value="가입">
+				<input type="reset" value="취소"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

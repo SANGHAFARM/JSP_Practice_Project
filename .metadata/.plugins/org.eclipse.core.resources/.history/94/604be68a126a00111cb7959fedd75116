@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="javascript">
+	function check_form() {
+		var name = data_form.name.value;
+		var age = data_form.age.value;
+		var school = data_form.school.value;
+		var filename = data_form.school.value;
+
+		if (!blank_check('이름', name))
+			return false;
+		if (!blank_check('나이', age))
+			return false;
+		if (!blank_check('학교', school))
+			return false;
+		if (!blank_check('파일명', filename))
+			return false;
+
+		return true;
+	}
+
+	function blank_check(name, value) {
+		if (value == '') {
+			alert(name + " 영역이 비었습니다.");
+			return false;
+		}
+		return true;
+	}
+</script>
+</head>
+<body>
+	<h3>기초 정보 저장!</h3>
+    <form method="POST" name="data_form" action="Servlet_01"
+		onSubmit="return check_form( )">
+        이름 : <input type="text" name="name" size="20" /><br />
+        나이 : <input type="text" name="age" size="20" /><br />
+        학교 : <input type="text" name="school" size="20" /><br />
+        파일 : <input type="text" name="filename" size="20" /><br />
+        <input type="submit" value="저장" />
+    </form>
+</body>
+</html>

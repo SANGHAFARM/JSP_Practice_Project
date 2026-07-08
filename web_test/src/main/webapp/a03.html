@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>자바 스크립트의 이벤트!</title>
+    <script language="JavaScript">
+        // 1. 커서가 들어왔을 때 실행되는 함수
+        function get_focus(x) {
+            alert(x.name + "의 위치에 커서가 있습니다.");
+        }
+
+        // 2. 커서가 나갔을 때 실행되는 함수
+        function lose_focus(x) {
+            alert(x.name + "의 위치에서 커서가 사라졌습니다.");
+        }
+    </script>
+</head>
+<body>
+    <form name="my_form">
+        이름 : <input type="text" name="name" onFocus="get_focus(this)" onBlur="lose_focus(this)"/><br/>
+        주소 : <input type="text" name="addr" onFocus="get_focus(this)" onBlur="lose_focus(this)"/><br/>
+    </form>
+</body>
+</html>

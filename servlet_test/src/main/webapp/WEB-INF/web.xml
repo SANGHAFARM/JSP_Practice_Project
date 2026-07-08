@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>servlet_test</display-name>
+
+	<servlet>
+		<servlet-name>MyServlet01</servlet-name>
+		<servlet-class>servlet_test.ServletTest01</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet01</servlet-name>
+		<url-pattern>/persona</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServlet02</servlet-name>
+		<servlet-class>servlet_test.ServletTest02</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet02</servlet-name>
+		<url-pattern>/persona4</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServlet03</servlet-name>
+		<servlet-class>servlet_test.ServletTest03</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet03</servlet-name>
+		<url-pattern>/persona5</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServlet06</servlet-name>
+		<servlet-class>servlet_test.ServletTest06</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MyServlet06_Seoul</servlet-name>
+		<servlet-class>servlet_test.ServletTest06_Seoul</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MyServlet06_Taegu</servlet-name>
+		<servlet-class>servlet_test.ServletTest06_Taegu</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet06</servlet-name>
+		<url-pattern>/ServletTest06</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyServlet06_Seoul</servlet-name>
+		<url-pattern>/ServletTest06_Seoul</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyServlet06_Taegu</servlet-name>
+		<url-pattern>/ServletTest06_Taegu</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>My02_01</servlet-name>
+		<servlet-class>servlet_test.Round15_02_SesArea_01</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>My02_02</servlet-name>
+		<servlet-class>servlet_test.Round15_02_SesArea_02</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>My02_03</servlet-name>
+		<servlet-class>servlet_test.Round15_02_SesArea_03</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>My02_01</servlet-name>
+		<url-pattern>/Servlet02_01</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>My02_02</servlet-name>
+		<url-pattern>/Servlet02_02</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>My02_03</servlet-name>
+		<url-pattern>/Servlet02_03</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+</web-app>

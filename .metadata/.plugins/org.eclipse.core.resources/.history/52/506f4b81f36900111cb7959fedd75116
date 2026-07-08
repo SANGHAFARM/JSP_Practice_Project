@@ -1,0 +1,34 @@
+package servlet_test;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ServletTest06 extends HttpServlet {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        request.setCharacterEncoding("euc-kr");
+        
+        String area = request.getParameter("area");
+        
+        ServletContext context = this.getServletContext();
+        RequestDispatcher dispatcher = null;
+        
+        if(area == null) {
+            response.sendError(512, "라디오 버튼 체크 오류!!!");
+            return;
+        }
+        else if(area.equals("서울")) {
+            dispatcher = context.getRequestDispatcher("/Servlet06_Seoul");
+        }
+        else if(area.equals("대구")) {
+            dispatcher = context.getRequestDispatcher("/Servlet06_Taegu");
+        }
+        
+        dispatcher.forward(request, response);
+    }
+}
