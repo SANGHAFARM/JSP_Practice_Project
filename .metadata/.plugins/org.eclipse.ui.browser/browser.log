@@ -289,3 +289,28 @@
 7월 14, 2026 16:40:49.827 [19812:20964:0714/164049.825:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 7월 14, 2026 17:36:36.361 [19812:10220:0714/173636.360:ERROR:components\device_event_log\device_event_log_impl.cc:200] [17:36:36.349] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
 7월 14, 2026 17:36:36.382 [19812:10220:0714/173636.381:ERROR:components\device_event_log\device_event_log_impl.cc:200] [17:36:36.381] USB: usb_service_win.cc:311 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+
+7월 15, 2026 10:13:11.404 NEW SESSION
+7월 15, 2026 10:13:11.404 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 15, 2026 10:13:13.338 [20036:1460:0715/101313.337:ERROR:components\device_event_log\device_event_log_impl.cc:200] [10:13:13.338] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 15, 2026 10:13:13.906 [20036:2640:0715/101313.906:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 10:13:36.505 [20036:2640:0715/101336.504:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+7월 15, 2026 15:52:34.961 [20036:1460:0715/155234.960:ERROR:components\device_event_log\device_event_log_impl.cc:200] [15:52:34.952] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 15, 2026 15:52:34.965 [20036:1460:0715/155234.965:ERROR:components\device_event_log\device_event_log_impl.cc:200] [15:52:34.965] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 15, 2026 15:52:34.968 [20036:1460:0715/155234.967:ERROR:components\device_event_log\device_event_log_impl.cc:200] [15:52:34.968] USB: usb_service_win.cc:311 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+7월 15, 2026 16:08:30.175 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 15, 2026 16:08:32.194 [1244:16420:0715/160832.193:ERROR:components\device_event_log\device_event_log_impl.cc:200] [16:08:32.193] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 15, 2026 16:08:32.731 [1244:21528:0715/160832.730:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 16:08:55.667 [1244:21528:0715/160855.667:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 16:09:38.786 [1244:21528:0715/160938.785:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 16:11:37.938 [1244:21528:0715/161137.937:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 16:14:57.30 [1244:21528:0715/161457.029:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 16:22:26.987 [1244:21528:0715/162226.987:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 17:52:49.181 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 15, 2026 17:52:51.210 [15988:15624:0715/175251.209:ERROR:components\device_event_log\device_event_log_impl.cc:200] [17:52:51.210] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 15, 2026 17:52:51.712 [15988:16056:0715/175251.712:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 17:53:14.818 [15988:16056:0715/175314.818:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 17:54:03.201 [15988:16056:0715/175403.200:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 17:55:36.417 [15988:16056:0715/175536.417:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 17:58:46.746 [15988:16056:0715/175846.746:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 15, 2026 18:06:11.324 [15988:16056:0715/180611.323:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
