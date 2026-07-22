@@ -31,7 +31,8 @@
 				href="list.do?pageNo=${pageNo}">[목록]</a> <c:if
 					test="${authUser.id == articleData.article.writer.id}">
 					<a href="modify.do?no=${articleData.article.number}">[게시글수정]</a>
-					<a href="delete.do?no=${articleData.article.number}">[게시글삭제]</a>
+					<!-- <a href="delete.do?no=${articleData.article.number}">[게시글삭제]</a> -->
+					<a href="#" onclick="if(confirm('정말 삭제하시겠습니까?')) { location.href='delete.do?no=${articleData.article.number}'; }">[게시글삭제]</a>
 				</c:if></td>
 		</tr>
 	</table>

@@ -1,5 +1,0 @@
-package guestbook.service;
-
-public class WriteMessageService {
-
-}
