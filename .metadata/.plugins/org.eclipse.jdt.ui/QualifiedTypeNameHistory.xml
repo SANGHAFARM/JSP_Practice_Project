@@ -13,4 +13,12 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.StackTraceElement"/>
     <fullyQualifiedTypeName name="javax.servlet.FilterConfig"/>
+    <fullyQualifiedTypeName name="jdbc.connection.ConnectionProvider"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="article.service.PermissionDeniedException"/>
+    <fullyQualifiedTypeName name="article.service.ArticleNotFoundException"/>
+    <fullyQualifiedTypeName name="jdbc.JdbcUtil"/>
+    <fullyQualifiedTypeName name="article.command.DeleteArticleHandler"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

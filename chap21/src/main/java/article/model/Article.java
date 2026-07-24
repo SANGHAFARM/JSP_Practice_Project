@@ -10,6 +10,8 @@ public class Article {
 	private Date regDate;
 	private Date modifiedDate;
 	private int readCount;
+	
+	public Article() {}
 
 	public Article(Integer number, Writer writer, String title, Date regDate, Date modifiedDate, int readCount) {
 		this.number = number;
