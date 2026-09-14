@@ -30,8 +30,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\JSP_Practice_Project\board"/>
+			<item value="C:\JSP_Practice_Project\MVC_DB_Practice"/>
 			<item value="C:\JSP_Practice_Project\board_backup"/>
+			<item value="C:\JSP_Practice_Project\board"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
