@@ -8,13 +8,16 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="SYS"/>
+		<item key="selection" value="퇴직"/>
 		<list key="findhistory">
-			<item value="sys"/>
-			<item value="update"/>
-			<item value="package filter;"/>
-			<item value="load"/>
-			<item value="dataout"/>
+			<item value="퇴직"/>
+			<item value="retirementTypes"/>
+			<item value="modal"/>
+			<item value="급여"/>
+			<item value="previous-payment"/>
+			<item value="내국"/>
+			<item value="基本情報"/>
+			<item value="扶養家族"/>
 		</list>
 		<list key="replacehistory">
 		</list>
